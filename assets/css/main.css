@@ -3,7 +3,7 @@
 html {
     height: 100%;
     width: 100%;
-    background-color: pink;
+    background-color: white;
 }
 
 
@@ -91,11 +91,11 @@ html {
 }
 
 .navbar-nav.nav-text-light > li > a:hover {
-    border-bottom-color: #fff;
+    border-bottom-color: black;
 }
 
 .navbar-nav.nav-text-light > li.active > a {
-    border-bottom-color: #fff;
+    border-bottom-color: black;
 }
 
 .navbar {
@@ -129,15 +129,15 @@ html {
 }
 
 .navbar.navbar-light .navbar-nav.nav-text-light > li > a:hover {
-    border-bottom-color: #646464;
+    border-bottom-color: pink;
 }
 
 .navbar.navbar-light .navbar-nav.nav-text-light > li.active > a {
-    border-bottom-color: #646464;
+    border-bottom-color: pink;
 }
 
 .navbar-toggle {
-    background-color: #646464;
+    background-color: black;
 }
 
 .navbar-toggle .icon-bar {
@@ -146,7 +146,7 @@ html {
 
 @media screen and (max-width: 767px) {
     .navbar-collapse {
-        background-color: #646464;
+        background-color: pink;
     }
 }
 
@@ -157,7 +157,8 @@ html {
 
 .content-section-b {
     padding: 100px 0;
-    background-color: pink;
+    background-color: white;
+    /*background-image: url();*/
 }
 
 .carousel-control.left {
@@ -171,5 +172,9 @@ html {
 .carousel-inner > .item > a > img,
 .carousel-inner > .item > img {
     display: inline-block;
+    margin: 0 auto;
+}
+
+.img-responsive {
     margin: 0 auto;
 }
