@@ -87,7 +87,7 @@ html {
 }
 
 .navbar-nav.nav-text-light > li > a {
-    color: #fff;
+    color: black;
 }
 
 .navbar-nav.nav-text-light > li > a:hover {
@@ -151,7 +151,9 @@ html {
 }
 
 
-/*Editorial Slider*/
+/* --------------------- */
+/* Sliders (not homepage)
+/* --------------------- */
 
 .content-section-b {
     padding: 100px 0;
@@ -166,7 +168,6 @@ html {
     background-image: none;
 }
 
-.carousel-inner > .item > a > img,
 .carousel-inner > .item > img {
-    display: inline-block;
+    margin: 0 auto;
 }
