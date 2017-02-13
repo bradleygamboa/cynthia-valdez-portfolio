@@ -168,6 +168,8 @@ html {
     background-image: none;
 }
 
+.carousel-inner > .item > a > img,
 .carousel-inner > .item > img {
+    display: inline-block;
     margin: 0 auto;
 }
